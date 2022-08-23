@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 520.875 s <<< FAILURE! - in TestSuite
+mfstestcases.CodingQuestion1.login  Time elapsed: 19.683 s  <<< FAILURE!
+java.lang.AssertionError: Login Failed  expected [My account - My Store] but found [Login - My Store]
+	at mfstestcases.CodingQuestion1.login(CodingQuestion1.java:38)
+
+mfstestcases.CodingQuestion1.Add_to_cart  Time elapsed: 28.289 s  <<< FAILURE!
+org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: 
+(429, 954) is out of bounds of viewport width (1536) and height (778)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'TMANGWENYA-CAS-', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 103.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220808125904, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24132, moz:profile: C:\Users\TERENC~1.MAG\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 20f4ee5a-6c84-418b-b743-03abea92a2ad
+	at mfstestcases.CodingQuestion1.Add_to_cart(CodingQuestion1.java:95)
+

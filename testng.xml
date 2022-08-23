@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+
+    <test  name="TestOnChrome">
+        <parameter name="BrowserName" value="Chrome"></parameter>
+        <classes>
+            <class name="mfstestcases.CodingQuestion1"></class>
+        </classes>
+    </test>
+    <test  name="TestOn Edge">
+        <parameter name="BrowserName" value="Edge"></parameter>
+        <classes>
+            <class name="mfstestcases.CodingQuestion1"></class>
+        </classes>
+    </test>
+    <test  name="TestOnFirefox">
+        <parameter name="BrowserName" value="Firefox"></parameter>
+                <classes>
+            <class name="mfstestcases.CodingQuestion1"></class>
+        </classes>
+    </test>
+</suite>
