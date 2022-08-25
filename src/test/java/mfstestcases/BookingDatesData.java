@@ -1,6 +1,8 @@
 package mfstestcases;
 
 public class BookingDatesData {
+    String checkin;
+    String checkout;
     public String getCheckin() {
         return checkin;
     }
@@ -16,13 +18,4 @@ public class BookingDatesData {
     public void setCheckout(String checkout) {
         this.checkout = checkout;
     }
-
-//    public BookingDatesData(String checkin, String checkout) {
-//        this.checkin = checkin;
-//        this.checkout = checkout;
-//    }
-
-    String checkin;
-    String checkout;
-
 }

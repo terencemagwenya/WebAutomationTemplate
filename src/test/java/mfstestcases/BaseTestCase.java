@@ -19,7 +19,7 @@ public class BaseTestCase {
     public static WebDriverWait wait;
     String baseurl;
     public static boolean loggedIn = false;
-    protected static Properties properties;
+    public static Properties properties;
     private static FileInputStream fileInputStream = null;
 
     @Parameters("BrowserName")
@@ -37,8 +37,6 @@ public class BaseTestCase {
             WebDriverManager.edgedriver().setup();
             driver = new EdgeDriver();
         }
-
-
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         wait = new WebDriverWait(driver, 30);
@@ -66,7 +64,7 @@ public class BaseTestCase {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
-       // driver.close();
-        //driver.quit();
+       driver.close();
+        driver.quit();
     }
 }

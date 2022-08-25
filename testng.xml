@@ -9,16 +9,22 @@
             <class name="mfstestcases.CodingQuestion1"></class>
         </classes>
     </test>
+
     <test  name="TestOn Edge">
         <parameter name="BrowserName" value="Edge"></parameter>
+        <classes><class name="mfstestcases.CodingQuestion1"></class>
+        </classes>
+    </test>
+
+    <test  name="TestOn FireFox">
+        <parameter name="BrowserName" value="Firefox"></parameter>
         <classes>
             <class name="mfstestcases.CodingQuestion1"></class>
         </classes>
     </test>
-    <test  name="TestOnFirefox">
-        <parameter name="BrowserName" value="Firefox"></parameter>
-                <classes>
-            <class name="mfstestcases.CodingQuestion1"></class>
+
+    <test  name="API Testing">
+                <classes><class name="mfstestcases.Q2ApiTesting"></class>
         </classes>
     </test>
 </suite>
