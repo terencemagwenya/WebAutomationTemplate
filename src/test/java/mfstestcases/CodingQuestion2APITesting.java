@@ -40,7 +40,6 @@ public class CodingQuestion2APITesting {
                 IOException e) {
             e.printStackTrace();
         }
-
     }
 
     @Test(priority = 1)
@@ -107,7 +106,7 @@ public class CodingQuestion2APITesting {
         jsonPayload.bookingdates = bookingDates;
         bookingDates.checkin = "2022-12-01";
         bookingDates.checkout = "2022-12-30";
-        jsonPayload.additionalneeds = "Breakfast";
+        jsonPayload.additionalneeds = "Change the Room";
         ObjectMapper objectMapper = new ObjectMapper();
         String jsonString = null;
         try {
@@ -134,6 +133,6 @@ public class CodingQuestion2APITesting {
         Assert.assertEquals(response.jsonPath().get("bookingdates.checkin"), bookingDates.checkin);
         Assert.assertEquals(response.jsonPath().get("bookingdates.checkout"), bookingDates.checkout);
         Assert.assertEquals(response.jsonPath().get("additionalneeds"), jsonPayload.additionalneeds);
-        System.out.println(bookingId);
+
     }
 }
