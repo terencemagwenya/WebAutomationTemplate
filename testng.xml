@@ -24,7 +24,7 @@
     </test>
 
     <test  name="API Testing">
-                <classes><class name="mfstestcases.Q2ApiTesting"></class>
+                <classes><class name="mfstestcases.CodingQuestion2APITesting"></class>
         </classes>
     </test>
 </suite>

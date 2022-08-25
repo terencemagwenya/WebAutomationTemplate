@@ -15,13 +15,7 @@ import java.util.Properties;
 import static io.restassured.RestAssured.given;
 import static io.restassured.RestAssured.*;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.util.Properties;
-import java.util.concurrent.TimeUnit;
-
-public class Q2ApiTesting {
+public class CodingQuestion2APITesting {
     static Response response;
     static final String contentType = "application/json; charset=UTF-8";
     static final String projectFilePath = System.getProperty("user.dir");

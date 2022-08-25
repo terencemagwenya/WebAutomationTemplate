@@ -1,5 +1,5 @@
 # MFS-automatedtest
-## Authour : Terence Magwenya (16/08/2022)
+## Authour : Terence Magwenya (25/08/2022)
 Steps Taken Creating the project 
 
 *1)* Java Language was selected as the programming language 
@@ -10,10 +10,12 @@ Steps Taken Creating the project
 
 *4)* Page Object Model was used for easy maintainability 
 
-*5)* TestNG- is used in this project for testcases grouping and prioritisation
+*5)* Cross Browser Testing was Implemented in this project.
 
-*6)* Properties file for storing constant values to be used withing the project> *src/test/java/utils/config.properties* 
+*6)* TestNG- is used in this project for testcases grouping and prioritisation
 
-*7)* Extents Reports > *test-output/MFS Automation Report_22.04.2022_10.51.26.html*
+*7)* Properties file for storing constant values to be used withing the project> *src/test/java/utils/config.properties* 
 
-*8)* Base Test Class which can be extended by othe child classes
+*8)* Extents Reports > *test-output/MFS Automation Report_22.04.2022_10.51.26.html*
+
+*9)* Base Test Class which can be extended by othe child classes
