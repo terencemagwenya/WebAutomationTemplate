@@ -2,7 +2,7 @@
 ## Authour : Terence Magwenya (25/08/2022)
 Steps Taken Creating the project 
 
-*1)* Java Language was selected as the programming language 
+*1)* Selenium WebDriver + Java 
 
 *2)* Keyword framework for the development of the project
 
