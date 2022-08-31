@@ -4,22 +4,19 @@
     <test  name="TestOnChrome">
         <parameter name="BrowserName" value="Chrome"></parameter>
         <classes>
-            <class name="mfstestcases.CodingQuestion1"></class>
+            <class name="testcases.CodingQuestion1"></class>
         </classes>
     </test>
-    <test  name="TestOn Edge">
-        <parameter name="BrowserName" value="Edge"></parameter>
-        <classes><class name="mfstestcases.CodingQuestion1"></class>
-        </classes>
-    </test>
-    <test  name="TestOn FireFox">
-        <parameter name="BrowserName" value="Firefox"></parameter>
-        <classes>
-            <class name="mfstestcases.CodingQuestion1"></class>
-        </classes>
-    </test>
-    <test  name="API Testing">
-        <classes><class name="mfstestcases.CodingQuestion2APITesting"></class>
-        </classes>
-    </test>
+<!--    <test  name="TestOn Edge">-->
+<!--        <parameter name="BrowserName" value="Edge"></parameter>-->
+<!--        <classes><class name="testcases.CodingQuestion1"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test  name="TestOn FireFox">-->
+<!--        <parameter name="BrowserName" value="Firefox"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="testcases.CodingQuestion1"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
 </suite>

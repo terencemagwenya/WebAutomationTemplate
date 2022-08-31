@@ -1,4 +1,4 @@
-# MFS-automatedtest
+# Web Automatedtest
 ## Authour : Terence Magwenya (25/08/2022)
 Steps Taken Creating the project 
 
@@ -16,6 +16,6 @@ Steps Taken Creating the project
 
 *7)* Properties file for storing constant values to be used withing the project> *src/test/java/utils/config.properties* 
 
-*8)* Extents Reports > *test-output/MFS Automation Report_22.04.2022_10.51.26.html*
+*8)* Extents Reports > *test-output/ Automation Report_22.04.2022_10.51.26.html*
 
-*9)* Base Test Class which can be extended by othe child classes
+*9)* Base Test Class which can be extended by other child classes
